@@ -1,0 +1,141 @@
+HTML CSSResult Skip Results Iframe
+EDIT ON
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+.logoP{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.box-content{
+    display: block;
+    margin: auto;
+}
+
+html{
+    background-color: #2C2C2C;
+}
+
+nav{
+    width: 100%;
+    margin: -10px auto 100px auto;
+    background-color: #1f1b3d;
+    position: sticky;
+    top: -20px;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 20%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+
+.info{
+    margin: 0px 20px;
+    height: 1500px;
+    background-color: #8C8C8C;
+}
+
+
+/* Update 09/08/2023 20:30*/
+
+footer {
+    background: #050028;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 10px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    max-width: 20px;
+    max-height: 20px
+}
+
+.footer-bottom {
+    min-height: 60px;
+    margin-top: 52px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1f1b3d;
+    font-size: 14px;
+    opacity: .8;
+}
+.logo {
+    max-width: 160px;
+    margin-bottom: 8px;
+}
+
+menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+menu li {
+    margin-bottom: 16px;
+}
+
+h2 {
+    text-align: left;
+    color: #d2d0e6;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+}
